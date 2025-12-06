@@ -60,6 +60,8 @@ tic-tac-toe/
 │── single.js
 │── double.js
 │── style.css
+│── assets
+│── sounds
 │── README.md
 
 ```
