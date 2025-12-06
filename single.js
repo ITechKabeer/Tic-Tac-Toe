@@ -54,7 +54,7 @@ boxes.forEach((box) => {
                 showWinner()
             }else if(count === 9){
             drawMatch()
-            }{
+            }else {
                 setTimeout(() => {
                     computerMove();
                 }, 2000);
