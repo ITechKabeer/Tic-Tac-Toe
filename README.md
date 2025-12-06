@@ -1,4 +1,4 @@
-# 🕹️ Tic Tac Toe Game (JavaScript Day 5)
+# 🕹️ Tic Tac Toe Game
 **Live Demo:** [Tic Tac Toe](https://tic-tac-toe-by-kabeer-hussain.vercel.app/)
 
 A **responsive and modern Tic Tac Toe game** built using **HTML, CSS & JavaScript**.  
@@ -51,7 +51,7 @@ Includes **Single Player** and **Double Player** modes with interactive buttons,
 
 ### 📁 Folder Structure
 
-```
+```css
 tic-tac-toe/
 │── index.html
 │── single.html
