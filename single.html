@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human VS AI || Tic Tac Toe</title>
+    <link rel="shortcut icon" href="human vs ai.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="game-container">
+        <h1 class="heading">Human ⚔️ AI</h1>
+        <div class = "player-turn">
+            <p class = "p-1"></p>
+            <p class = "p-2">Computer</p>
+        </div>
+        <div class = "game-box">
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+            <button class="box game-box1"></button>
+        </div>
+        <div class="draw-div">
+            <p class="draw-line hide"></p>
+        </div> 
+        <div class="restart-div"><button class = "restart-btn">Restart Game</button></div>
+    </div>
+    <div class="container hide" id = "win-card">
+        <h1 class="heading" style="font-family: 'Science Gothic', sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; font-variation-settings: 'slnt' 0, 'wdth' 100, 'CTRS' 0;">Winner 🥇</h1>
+        <div class = "winner-img"><img src="assets/img/winner.gif" style="width: 230px; height: 230px; object-fit: cover; object-position: center;"></div>
+        <p class="winner-line">🎉 Congratulations Ali! You did it!</p>
+        <div class="new-div"><button class="new-btn">New Game</button></div>
+        <footer>Made by Kabeer Hussain ❤️ || Mern Stack Learner</footer>
+    </div>
+<script src="app.js"></script>
+<script src="single.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
