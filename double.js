@@ -141,14 +141,14 @@ function disableBoxes(){
 }
 
 function enableBoxes(){
+    count = 0
     boxes.forEach((box) => {
         box.disabled = false
         box.innerText = ""
         box.classList.remove("game-box2")
         box.classList.remove("box-x")
         box.classList.remove("box-o")
-        count = 0
-        drawLine.classList.add("hide")
+        drawLine[0].classList.add("hide")
     })
 }
 
